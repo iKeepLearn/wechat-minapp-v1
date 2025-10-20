@@ -1,0 +1,33 @@
+[package]
+name = "wechat-minapp"
+version = "1.3.6"
+edition = "2024"
+authors = ["cc <i@artista.cc>"]
+description = "A rust sdk for wechat miniprogram server api"
+license = "MIT"
+homepage = "https://github.com/ikeeplearn/wechat-minapp"
+repository = "https://github.com/ikeeplearn/wechat-minapp"
+categories = ["asynchronous", "web-programming"]
+keywords = ["minapp", "wechat"]
+
+[dependencies]
+tokio = { version = "1", features = ["sync"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+chrono = { version  = "0.4", features = ["serde"] }
+tracing = "0.1"
+reqwest = { version = "^0.12.9", features = ["json"] }
+aes = "^0.8.4"
+base64 = "^0.22.1"
+cbc = { version = "^0.1.2", features = ["alloc"] }
+hex = "0.4.3"
+hmac = "0.12.1"
+serde_repr = "^0.1.19"
+sha2 = "0.10.8"
+strum = { version = "^0.27.2", features = ['derive'] }
+
+[dev-dependencies]
+actix-web = "4"
+dotenv = "0.15"
+tokio = { version = "1.0", features = ["full"] }

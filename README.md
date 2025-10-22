@@ -8,6 +8,8 @@ A rust sdk for wechat miniprogram server api
 
 首先感谢 headironc 的项目，之所以重新发一包，而不是 pr 是因为我改了很多结构，现在 wechat-minapp 的调用方式出现了很大的不同。
 
+该版本不再添加新功能，请使用 [wechat-minapp](https://crates.io/crates/wechat-minapp)
+
 ## 用法
 
 ### 获取 access token

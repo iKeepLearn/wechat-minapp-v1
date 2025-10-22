@@ -1,7 +1,7 @@
 use dotenv::dotenv;
 use std::env;
-use wechat_minapp::Client;
-use wechat_minapp::minapp_security::{Args, Scene};
+use wechat_minapp_v1::Client;
+use wechat_minapp_v1::minapp_security::{Args, Scene};
 
 /// 初始化测试客户端
 fn setup_client() -> Client {

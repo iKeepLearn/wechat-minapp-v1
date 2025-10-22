@@ -1,6 +1,6 @@
 use dotenv::dotenv;
 use std::env;
-use wechat_minapp::{Client, MinappEnvVersion, QrCodeArgs, Rgb};
+use wechat_minapp_v1::{Client, MinappEnvVersion, QrCodeArgs, Rgb};
 
 /// 初始化测试客户端
 fn setup_client() -> Client {

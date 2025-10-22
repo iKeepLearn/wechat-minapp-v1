@@ -1,12 +1,12 @@
 [package]
 name = "wechat-minapp-v1"
-version = "1.3.7"
+version = "1.3.8"
 edition = "2024"
 authors = ["cc <i@artista.cc>"]
 description = "A rust sdk for wechat miniprogram server api"
 license = "MIT"
-homepage = "https://github.com/ikeeplearn/wechat-minapp"
-repository = "https://github.com/ikeeplearn/wechat-minapp"
+homepage = "https://github.com/ikeeplearn/wechat-minapp-v1"
+repository = "https://github.com/ikeeplearn/wechat-minapp-v1"
 categories = ["asynchronous", "web-programming"]
 keywords = ["minapp", "wechat"]
 
